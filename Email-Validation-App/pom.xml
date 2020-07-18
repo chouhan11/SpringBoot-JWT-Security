@@ -10,24 +10,36 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.inno</groupId>
-	<artifactId>CreditCardValidationApp</artifactId>
+	<artifactId>Email-Validation-App</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>CreditCardValidationApp</name>
-	<description>Demo project for Spring Boot-camel</description>
+	<name>Email-Validation-App</name>
+	<description>Demo project for Spring Boot </description>
 
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
-	<dependency>
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<scope>runtime</scope>
+			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>commons-validator</groupId>
 			<artifactId>commons-validator</artifactId>
 			<version>1.6</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<optional>true</optional>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
