@@ -1,0 +1,33 @@
+
+
+   Steps to run application::
+ 
+ 1: run application as spring boot app.
+ 
+ 2: open the postman tool
+         : set method as post, URL http://localhost:8080/book ,application/JSON
+          put in body
+ {
+	"bookId" :"1",
+	"bookName":"core Java",
+	"author" : "R.Rao",
+	"price":"2000"
+}
+
+{
+	"bookId" :"2",
+	"bookName":"advance Java",
+	"author" : "Rao venkat",
+	"price":"3000"
+}
+
+{
+	"bookId" :"3",
+	"bookName":"spring core",
+	"author" : "NTSP",
+	"price":"4000"
+}
+ 3: go to browser type URL  http://localhost:8080/h2
+            H2-DB url check with properties file
+            open H2 DB , and you can see record is inserted.
+          
