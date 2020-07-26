@@ -1,10 +1,10 @@
-package com.inno;
+package com.mady;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootCurdApiApplicationTests {
+class SpringBootJpaApplicationTests {
 
 	@Test
 	void contextLoads() {
