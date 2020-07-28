@@ -1,10 +1,10 @@
-package com.mady;
+package com.jwt;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootJpaApplicationTests {
+class SbJwtSecurityWithOpenApiDocumentationApplicationTests {
 
 	@Test
 	void contextLoads() {
